@@ -1,3 +1,5 @@
+import javax.swing.JoptionPane;
+
 public class DataTypes{
  public static void main(String[] args){
 
@@ -12,9 +14,11 @@ public class DataTypes{
   System.out.println("Nama depan : " + namaDepan);
   System.out.println("Nama belakang : " + namaBelakang);
   System.out.println("Usia : " + usia);
-  System.out.println("Target kuliah : " + targetTahunKuliah + "tahun");
+  System.out.println("Target Kuliah : " + targetTahunKuliah + "tahun");
   System.out.println("IPK : " + ipk);
   System.out.println("Nilai PBO : " + nilaiAbjad);
   System.err.println("Cantik : " + cantik);
+
+  JoptionPane.showMessageDialog(null,"Hai, " + namaDepan + namaBelakang);
  }
 }
